@@ -35,7 +35,7 @@ elif args.file:
 auto=args.auto
     
 date_time = datetime.now().strftime("%Y%m%d_%H%M%S")
-tmp_dir = '/srv/nobackup/tmp/midi' + os.sep + date_time
+tmp_dir = '/tmp/midi' + os.sep + date_time
 
 def rlinput(prompt, prefill=''):
    readline.set_startup_hook(lambda: readline.insert_text(prefill))
