@@ -20,3 +20,5 @@ convenient. However if you want to avoid this then you have to tweak the
 function get_valid_filename()
 
 If the file exists it will add a sequence number to the filename until a non existing filename is found.
+
+Get help with the command line parameter -h.
