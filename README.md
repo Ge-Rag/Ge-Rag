@@ -19,4 +19,4 @@ Spaces in the filename are converted to underscores, which for me was more
 convenient. However if you want to avoid this then you have to tweak the
 function get_valid_filename()
 
-If the file exists the it will add a sequence number to the filename until a valid file name is found.
+If the file exists it will add a sequence number to the filename until a non existing filename is found.
